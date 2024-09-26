@@ -3,9 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Math Rich - Request Account Removal">
+    <meta name="keywords" content="Math, Rich, Remove Account">
+    <title>Remove Account - Math Rich</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #0F172A;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #0F172A;
+            padding: 1.5em;
+            text-align: center;
+            color: #ffffff;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #f9c2ff;
+            margin: 0;
+        }
+        main {
+            flex-grow: 1;
+            padding: 2em;
+            text-align: center;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 1em auto;
+        }
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            margin: 20px 0;
+            background-color: #f9c2ff;
+            color: #0F172A;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 1.1em;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #e2a8f3;
+        }
+        footer {
+            background-color: #0F172A;
+            color: #ffffff;
+            padding: 1em;
+            text-align: center;
+        }
+        footer a {
+            color: #f9c2ff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Mobile responsiveness */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+                padding: 0 1em;
+            }
+            .btn {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1>Remove Account</h1>
+    <header>
+        <h1>Remove Account</h1>
+    </header>
+
+    <main>
+        <p>If you wish to remove your account from Math Rich, you can request this by sending us an email. Once we receive your request, we will process the removal of your account and send you a confirmation.</p>
+        <a class="btn" href="mailto:support@mathrich.com?subject=Request for Account Removal&body=Please remove my account from Math Rich. My account email is: [Your Email]">Request Account Removal</a>
+    </main>
 </body>
 </html>
